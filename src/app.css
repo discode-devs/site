@@ -14,4 +14,16 @@
     .navlink-hover {
         @apply hover:bg-[#5865F2] duration-100 transition-colors rounded-md;
     }
+
+    .funtext {
+        @apply mx-1 my-1 px-1 py-1 transition-all duration-100;
+    }
+
+    .funtext-hoverup {
+        @apply translate-y-1 hover:-translate-y-1;
+    }
+
+    .funtext-hoverdown {
+        @apply -translate-y-2 hover:translate-y-2;
+    }
 }

@@ -1,5 +1,6 @@
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
+import { markdown } from 'svelte-preprocess-markdown';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -8,12 +9,15 @@ const config = {
     preprocess: [
         preprocess({
             postcss: true
-        })
+        }),
+        markdown()
     ],
 
     kit: {
         adapter: adapter()
-    }
+    },
+
+    extensions: ['.svelte', '.md']
 };
 
 export default config;

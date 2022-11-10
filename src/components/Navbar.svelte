@@ -10,6 +10,7 @@
             <a
                 href="https://github.com/discode-devs/rewrite"
                 target="_blank"
+                rel="noreferrer"
                 class="navlink-hover px-1 mx-4"
             >
                 <p>Source</p>
@@ -17,6 +18,7 @@
             <a
                 href="https://discord.com/api/oauth2/authorize?client_id=937476981321240626&permissions=139586825280&scope=bot%20applications.commands"
                 target="_blank"
+                rel="noreferrer"
                 class="navlink-hover px-1 mx-4"
             >
                 <p>Invite</p>
